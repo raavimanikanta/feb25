@@ -1,0 +1,52 @@
+.linear{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgb(150, 241, 150),rgb(176, 176, 240),rgb(241, 155, 155));
+}
+.gradient{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(rgb(231, 95, 95),rgb(154, 240, 154),rgb(255, 192, 245));
+    float:right;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 2px solid gold;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    box-sizing: border-box;
+    border: 2px solid gold;
+    margin: 10px;
+    padding: 10px;
+}
+.cell1{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    z-index: 5;
+    color: white;
+}
+.cell2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    z-index: 6;
+    position: absolute;
+    color: white;
+    
+}
+.cont1{
+    margin-left: 300px;
+
+}
